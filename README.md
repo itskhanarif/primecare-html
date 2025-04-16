@@ -14,3 +14,6 @@ Git clone https://github.com/itskhanarif/primecare-html.git
  docker build -t primecare-html-images .
 docker run -d -p 8080:80 --name primecare-html-container primecare-html-images
 add secuirity group rule that custom tcp port 8080 from anywhere IPv4
+docker stop container_id
+docker rm container_id
+docker rmi image_id

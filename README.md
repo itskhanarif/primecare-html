@@ -19,3 +19,4 @@ add secuirity group rule that custom tcp port 8080 from anywhere IPv4
 docker stop container_id
 docker rm container_id
 docker rmi image_id
+sudo rm -r folder_name

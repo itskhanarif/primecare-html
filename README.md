@@ -1,3 +1,5 @@
+In this project, a static web site is hosted on a container on ec2.
+
 Sudo apt update
 Sudo apt intall docker.io -y
 Sudo usermod -aG docker ubuntu
